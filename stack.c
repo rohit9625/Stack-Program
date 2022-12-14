@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
+
 //Global Variables
 int CAPACITY = 5;
 int Stack[5];
@@ -43,6 +44,8 @@ int main(){
         }
         printf("\n");
     }
+    getch();
+    return 0;
 }
 // Function Definition
 // Push
